@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "pnpm docs:build",
+  "buildCommand": "cd website && pnpm exec vitepress build",
   "outputDirectory": "website/.vitepress/dist",
   "installCommand": "pnpm install --filter=open-codesign-website...",
   "framework": null,
