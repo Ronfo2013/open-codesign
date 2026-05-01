@@ -9,6 +9,7 @@ const OG_IMAGE = `${SITE_URL}og.svg`;
 const SOFTWARE_VERSION = (rootPkg as { version: string }).version;
 
 export default defineConfig({
+  outDir: 'dist',
   title: 'Open CoDesign',
   titleTemplate: ':title — Open CoDesign',
   description:
