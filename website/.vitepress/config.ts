@@ -268,6 +268,10 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'Deployment',
+        items: [{ text: 'Vercel', link: '/vercel-development-guide' }],
+      },
     ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/OpenCoworkAI/open-codesign' }],
