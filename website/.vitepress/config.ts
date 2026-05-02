@@ -2,8 +2,8 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vitepress';
 import rootPkg from '../../package.json' with { type: 'json' };
 
-const SITE_ORIGIN = 'https://opencoworkai.github.io';
-const SITE_BASE = '/open-codesign/';
+const SITE_ORIGIN = process.env.SITE_ORIGIN ?? 'https://opencoworkai.github.io';
+const SITE_BASE = process.env.SITE_BASE ?? '/open-codesign/';
 const SITE_URL = `${SITE_ORIGIN}${SITE_BASE}`;
 const OG_IMAGE = `${SITE_URL}og.svg`;
 const SOFTWARE_VERSION = (rootPkg as { version: string }).version;
