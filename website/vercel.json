@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": ".vitepress/dist",
+  "installCommand": "cd .. && pnpm install --filter=open-codesign-website...",
+  "framework": null,
+  "env": {
+    "ELECTRON_SKIP_BINARY_DOWNLOAD": "1"
+  }
+}
