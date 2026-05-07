@@ -32,6 +32,8 @@ export const ERROR_CODES = {
   CLAUDE_CODE_OAUTH_ONLY: 'CLAUDE_CODE_OAUTH_ONLY',
   CODEX_TOKEN_PARSE_FAILED: 'CODEX_TOKEN_PARSE_FAILED',
   CODEX_TOKEN_NOT_LOGGED_IN: 'CODEX_TOKEN_NOT_LOGGED_IN',
+  FACEBOOK_ADS_TOKEN_PARSE_FAILED: 'FACEBOOK_ADS_TOKEN_PARSE_FAILED',
+  FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN: 'FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN',
 
   // Generation / input
   INPUT_EMPTY_PROMPT: 'INPUT_EMPTY_PROMPT',
@@ -195,6 +197,16 @@ export const ERROR_CODE_DESCRIPTIONS: Record<CodesignErrorCode, ErrorCodeDescrip
   CODEX_TOKEN_NOT_LOGGED_IN: {
     userFacing: 'ChatGPT subscription is not signed in. Please log in via Settings.',
     userFacingKey: 'err.CODEX_TOKEN_NOT_LOGGED_IN',
+    category: 'provider',
+  },
+  FACEBOOK_ADS_TOKEN_PARSE_FAILED: {
+    userFacing: 'Local Facebook Ads login is corrupted. Please re-login in Settings.',
+    userFacingKey: 'err.FACEBOOK_ADS_TOKEN_PARSE_FAILED',
+    category: 'provider',
+  },
+  FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN: {
+    userFacing: 'Facebook Ads is not signed in. Please log in via Settings.',
+    userFacingKey: 'err.FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN',
     category: 'provider',
   },
 

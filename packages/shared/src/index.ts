@@ -235,6 +235,8 @@ export class CodesignError extends Error {
 export {
   BUILTIN_PROVIDERS,
   CHATGPT_CODEX_PROVIDER_ID,
+  FACEBOOK_ADS_MCP_URL,
+  FACEBOOK_ADS_PROVIDER_ID,
   ConfigSchema,
   ConfigV3Schema,
   IMAGE_GENERATION_SCHEMA_VERSION,

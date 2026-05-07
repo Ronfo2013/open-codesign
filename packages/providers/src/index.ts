@@ -482,6 +482,29 @@ export { looksLikeGatewayMissingMessagesApi } from './gateway-compat';
 export { injectSkillsIntoMessages, formatSkillsForPrompt, filterActive } from './skill-injector';
 
 export { defaultImageBaseUrl, defaultImageModel, generateImage } from './images';
+
+export {
+  ADS_SCOPES as FACEBOOK_ADS_SCOPES,
+  AUTH_BASE as FACEBOOK_ADS_AUTH_BASE,
+  CLIENT_ID as FACEBOOK_ADS_CLIENT_ID,
+  FacebookAdsOAuthTokenError,
+  TOKEN_URL as FACEBOOK_ADS_TOKEN_URL,
+  buildAuthorizeUrl as buildFacebookAdsAuthorizeUrl,
+  exchangeCode as exchangeFacebookAdsCode,
+  fetchUserId as fetchFacebookAdsUserId,
+  generatePkce as generateFacebookAdsPkce,
+} from './facebook-ads/oauth';
+export type {
+  AuthorizeUrlOpts as FacebookAdsAuthorizeUrlOpts,
+  PkcePair as FacebookAdsPkcePair,
+  TokenSet as FacebookAdsTokenSet,
+} from './facebook-ads/oauth';
+
+export { FacebookAdsTokenStore } from './facebook-ads/token-store';
+export type {
+  FacebookAdsTokenStoreOptions,
+  StoredFacebookAdsAuth,
+} from './facebook-ads/token-store';
 export type {
   GenerateImageOptions,
   GenerateImageResult,

@@ -48,6 +48,16 @@ export type WireApi = z.infer<typeof WireApiSchema>;
  */
 export const CHATGPT_CODEX_PROVIDER_ID = 'chatgpt-codex';
 
+/**
+ * System-managed provider id for Facebook Ads (OAuth). Lives in shared so
+ * both the desktop main process and peripheral helpers reference the same
+ * literal without import cycles.
+ */
+export const FACEBOOK_ADS_PROVIDER_ID = 'facebook-ads';
+
+/** Remote MCP server endpoint for Facebook Ads. */
+export const FACEBOOK_ADS_MCP_URL = 'https://mcp.facebook.com/ads';
+
 // ── Secrets & StoredDesignSystem ─────────────────────────────────────────────
 
 export const SecretRef = z.object({
