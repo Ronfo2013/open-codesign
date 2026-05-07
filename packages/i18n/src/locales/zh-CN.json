@@ -1109,6 +1109,8 @@
     "CLAUDE_CODE_OAUTH_ONLY": "你的 Claude Code 使用的是 Anthropic 订阅（Pro/Max），第三方应用无法复用订阅额度——请到 console.anthropic.com 生成 API key 后填入。",
     "CODEX_TOKEN_PARSE_FAILED": "本地 ChatGPT 登录凭证已损坏，请到设置中重新登录。",
     "CODEX_TOKEN_NOT_LOGGED_IN": "ChatGPT 订阅未登录，请到设置中登录。",
+    "FACEBOOK_ADS_TOKEN_PARSE_FAILED": "本地 Facebook Ads 登录凭证已损坏，请到设置中重新登录。",
+    "FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN": "Facebook Ads 未登录，请到设置中登录。",
     "INPUT_EMPTY_PROMPT": "prompt 不能为空。",
     "INPUT_EMPTY_COMMENT": "评论内容不能为空。",
     "INPUT_EMPTY_HTML": "此操作需要已有的 HTML 内容。",

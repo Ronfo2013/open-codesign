@@ -1113,6 +1113,8 @@
     "CLAUDE_CODE_OAUTH_ONLY": "Your Claude Code login uses an Anthropic subscription (Pro/Max). Third-party apps cannot reuse the subscription quota — generate an API key at console.anthropic.com and use it here.",
     "CODEX_TOKEN_PARSE_FAILED": "Local ChatGPT login is corrupted. Please re-login in Settings.",
     "CODEX_TOKEN_NOT_LOGGED_IN": "ChatGPT subscription is not signed in. Please log in via Settings.",
+    "FACEBOOK_ADS_TOKEN_PARSE_FAILED": "Local Facebook Ads login is corrupted. Please re-login in Settings.",
+    "FACEBOOK_ADS_TOKEN_NOT_LOGGED_IN": "Facebook Ads is not signed in. Please log in via Settings.",
     "INPUT_EMPTY_PROMPT": "The prompt cannot be empty.",
     "INPUT_EMPTY_COMMENT": "The comment cannot be empty.",
     "INPUT_EMPTY_HTML": "Existing HTML is required for this operation.",
